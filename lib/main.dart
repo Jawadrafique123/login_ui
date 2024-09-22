@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                         width: 15,
                       ),
                       Text(
-                        'Maintianance',
+                        'Maintenance',
                         style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.w700,
@@ -92,23 +92,23 @@ class MyApp extends StatelessWidget {
                       fillColor: const Color(0xffF8F9FA),
                       filled: true,
                       hintText: 'Email',
-                      prefixIcon: Icon(
+                      prefixIcon: const Icon(
                         Icons.email,
                         color: Color(0xFFEF6C00),
                       ),
                       focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
+                          borderSide: const BorderSide(
                             color: Color(0xffE4E7EB),
                           ),
                           borderRadius: BorderRadius.circular(15)),
                       enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
+                          borderSide: const BorderSide(
                             color: Color(0xffE4E7EB),
                           ),
                           borderRadius: BorderRadius.circular(15))),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(
@@ -117,22 +117,22 @@ class MyApp extends StatelessWidget {
                 ),
                 child: TextFormField(
                   decoration: InputDecoration(
-                    fillColor: Color(0xffF8F9FA),
+                    fillColor: const Color(0xffF8F9FA),
                     filled: true,
                     hintText: 'Password',
-                    suffixIcon: Icon(Icons.visibility_off_outlined),
-                    prefixIcon: Icon(
+                    suffixIcon: const Icon(Icons.visibility_off_outlined),
+                    prefixIcon: const Icon(
                       Icons.password,
                       color: Color(0xFFEF6C00),
                     ),
                     focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
+                      borderSide: const BorderSide(
                         color: Color(0xffE4E7EB),
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
+                      borderSide: const BorderSide(
                         color: Color(0xffE4E7EB),
                       ),
                       borderRadius: BorderRadius.circular(15),
@@ -140,11 +140,11 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Text(
-                    'Fogot password?',
+                    'Forgot password?',
                     style: TextStyle(
                         fontFamily: "Rubik-Regular",
                         fontSize: 16,
@@ -153,17 +153,17 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 150,
               ),
               Container(
                 height: 50,
                 width: 300,
                 decoration: BoxDecoration(
-                    color: Color(0xFFEF6C00),
+                    color: const Color(0xFFEF6C00),
                     borderRadius: BorderRadius.circular(15)),
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     'Login',
                     style: TextStyle(
                         fontSize: 18,
@@ -172,7 +172,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               const Row(
